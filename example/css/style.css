@@ -1,0 +1,65 @@
+/* 
+    Document   : style
+    Created on : 13-Aug-2012, 09:12:46
+    Author     : TJ
+*/
+
+html,body{
+    
+    padding:0;
+    margin:0;
+    font-family:Helvetica;
+    text-align:center;
+    
+}
+
+a{
+    
+    color:inherit;
+    text-decoration:none;
+    
+}
+
+img{
+    
+    border:0;
+    
+}
+
+#container{
+    
+    width:1024px;
+    margin:0 auto;
+    text-align:left;
+    
+}
+
+.imchat-container{
+    
+    width:400px;
+    margin:0 auto;
+    margin-top:40px;
+    
+}
+
+.imchat-msgs{
+    
+    width:400px;
+    border:1px solid grey;
+    height:300px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    
+}
+
+.imchat-gui{
+    
+    width:400px;
+    
+}
+
+.imchat-gui input, textarea, table{
+    
+    width:100%;
+    
+}

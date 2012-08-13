@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>IM Chat - Example</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/imchat.js"></script>
+        
+    </head>
+    <body>
+        
+        <div id="container">
+            
+            <div class="imchat-container">
+                
+                <h1>IM Chat Example</h1>
+                <p>IM Chat is a simple instant-message chat service that uses AJAX and PHP. IM Chat is designed to be as visually customisable as possible. Therefore it does not create any markup or display for you, you will create the markup upon implementation and give the script your class names. Further information can be found in the README</p>
+                
+                <div class="imchat-msgs"></div><!-- The javascript file uses this class to dump all messages retrieved from the server. The class is changeable in the JS file -->
+                <div class="imchat-gui">
+
+                    <table>
+
+                        <tr><td>Your name:</td><td><input type="text" class="imchat-name" /></td></tr>
+                        <tr><td>Message:</td><td><textarea class="imchat-msg"></textarea></td></tr>
+                        <tr><td><input type="submit" class="imchat-submit" /></td></tr>
+
+                    </table>
+
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
